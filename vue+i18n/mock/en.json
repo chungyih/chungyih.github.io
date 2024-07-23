@@ -1,0 +1,19 @@
+{
+  "NextPage": "Next",
+  "Form.EmailPlaceholder": "Enter your email",
+  "Form.NameRequired": "Name is required",
+  "Table.Age": "Age",
+  "Form.EmailRequired": "Email is required",
+  "Form.Name": "Name",
+  "Submit": "Submit",
+  "Form.Email": "Email",
+  "Form.NamePlaceholder": "Enter your name",
+  "PreviousPage": "Previous",
+  "Table.Name": "Name",
+  "Table.Country": "Country",
+  "PageInfo": "Page {current} of {total}",
+  "Title": "You did it!",
+  "Table.Id": "ID",
+  "Description": "You've successfully created a project with\\n<a target=\\\"_blank\\\" href=\\\"{viteRef}\\\">Vite</a> +\\n<a target=\\\"_blank\\\" href=\\\"{vueRef}\\\">Vue 3</a>.",
+  "Form.EmailInvalid": "Email is invalid"
+}
