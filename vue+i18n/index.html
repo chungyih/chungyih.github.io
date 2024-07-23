@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue 3 + Vite with Validator, Dynamic i18n, and Paginated Datatable</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-i18n@9"></script>
+    <script src="https://unpkg.com/vee-validate"></script>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div id="app">
+        <h1>{{ $t('Title') }}</h1>
+        <form @@submit.prevent="submitForm">
+            <div>
+                <label for="name">{{ $t('Form.Name') }}</label>
+                <input id="name" v-model="name" :placeholder="$t('Form.NamePlaceholder')">
+                <span v-if="errors.name">{{ errors.name }}</span>
+            </div>
+            <div>
+                <label for="email">{{ $t('Form.Email') }}</label>
+                <input id="email" v-model="email" :placeholder="$t('Form.EmailPlaceholder')">
+                <span v-if="errors.email">{{ errors.email }}</span>
+            </div>
+            <button type="submit">{{ $t('Submit') }}</button>
+        </form>
+        <div>
+            <button @@click="changeLanguage('en')">English</button>
+            <button @@click="changeLanguage('zh-TW')">中文</button>
+        </div>
+        <datatable :columns="columns" :data="tableData" :page-size="1"></datatable>
+
+    </div>
+
+    <script type="module" src="~/js/site.js"></script>
+</body>
+</html>
