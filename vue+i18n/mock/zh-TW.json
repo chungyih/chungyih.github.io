@@ -1,0 +1,19 @@
+{
+    "NextPage": "下一頁",
+    "Form.EmailPlaceholder": "請輸入電子信箱",
+    "Form.NameRequired": "姓名為必要欄位",
+    "Table.Age": "年齡",
+    "Form.EmailRequired": "Email為必要欄位",
+    "Form.Name": "姓名",
+    "Submit": "提交",
+    "Form.Email": "電子信箱",
+    "Form.NamePlaceholder": "請輸入姓名",
+    "PreviousPage": "上一頁",
+    "Table.Name": "姓名",
+    "Table.Country": "國家",
+    "PageInfo": "目前在第 {current} 頁, 總共 {total} 頁",
+    "Title": "你做到了",
+    "Table.Id": "ID",
+    "Description": "你成功的用<a target=\\\"_blank\\\" href=\\\"{viteRef}\\\">Vite</a> + <a target=\\\"_blank\\\" href=\\\"{vueRef}\\\">Vue 3</a>建立了一個專案.",
+    "Form.EmailInvalid": "Email格式不正確"
+}
